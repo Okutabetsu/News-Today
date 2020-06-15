@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="News Today - CSS.css">
+	<meta charset="utf-8">
+	<title>News Today</title>
+	<script src="News Today - JavaScript.js"></script>
+</head>
+<body>
+	<header>
+		<h1>News Today</h1>
+		<h3>welcome to our web news</h3>
+	</header>
+	<aside>
+		<hr>
+		<div class="light-text">
+			<p id="timepara" class="time">Get current time</p>
+		</div>
+		<br>
+		<br>
+		<div class="light-text">
+			<button type="button" onclick="getTime()">Here</button>
+			<button type="button" onclick="resetTime()">Reset</button>
+		</div>
+		<hr>
+	</aside>
+	<h2>Hot News</h2>
+	<div >
+		<a href="News Today - Asylum.html"><img src="images/Asylum.jpg" alt="Asylum room with creepy text on the wall."></a>
+		<a href="News Today - Carcrash.html"><img src="images/Ambulance.jpg" alt="Ambulance after carcrash."></a>
+		<a href="News Today - Police in Action.html"><img src="images/Policecar.jpg" alt="Police Car in Action."></a>
+	</div>
+	<h2>Short Article</h2>
+	<article>
+		<h3>Fake news</h3>
+		<p class="light-text">Today's article is about fake news and how to make sure, you don't fall into the rabit hole. The thing is, today, anyone can say anything, especialy on the internet, where people can be bit more anonymus. So, what to do in order not to fall there? It's quite simple, all you have to do, is not to trust your instinct. When we hear something for the first time, we have a tendency to belive the information. So we would recommend to check on more websites, videos, ask your friends, just try to get a bigger picture. Once you have a bigger picture, you can judge from there, you choose the things to belive. To be honest, everyone can say a lie, wether they are aware or not, no one will say the complete truth, so you can't be 100% sure, that you don't get fake news, but it's more risky to just blindly accept, think about what you hear. Thats it for today.</p>
+		<aside class="text-around">Thank you for your time and keep asking.</aside>
+	</article>
+	<h2>Covid-19 Table - Czech Republic</h2>
+	<div >
+		<table align="center">
+			<tr>
+				<td>Name</td>
+				<td>Total number of infected people</td>
+				<td>Number of presently infected people</td>
+				<td>Number of recovered people</td>
+				<td>Fatality of the disease</td>
+			</tr>
+			<tr>
+				<td>Today</td>
+				<td>+56</td>
+				<td>+53</td>
+				<td>+3</td>
+				<td>+0</td>
+			</tr>
+			<tr>
+				<td>Total</td>
+				<td>9200</td>
+				<td>2379</td>
+				<td>6502</td>
+				<td>319</td>
+			</tr>
+		</table>
+		<hr>
+		<img class="small-picture" src="images/Coronavirus.jpg">
+		<article>
+			<p class="text-around">Situation with Covid-19 is not as dire as 2 months ago, finaly, we can go outside without covering our mouths and noses, even tho this only counts outside, if people are not close to you. In public transport you have cover lower face. We still have to keep our fellow citizens safe after all, we are in this together. Today, there are around 50 new cases, 3 recovered and luckly we can say, <strong>no one</strong> passed away. Let's thank our doctors for their hard work, keep others save and before we finish this article, here is a list of things to do, if you found symptoms on your self.</p>
+			<br/>
+			<ul>
+				<li>Call ahead before visiting your doctor</li>
+				<li>Wear a cloth covering over your nose and mouth</li>
+				<li>Cover your coughs and sneezes</li>
+			</ul>
+			<ul>
+				<li>Clean your hands often</li>
+				<li>Avoid sharing personal household items</li>
+				<li>Clean all “high-touch” surfaces everyday</li>
+			</ul>
+			<aside class="text-around under-line">
+				<b>You can get some more information on <a href="https://koronavirus.mzcr.cz/" target="_blank" align="center">this site</a></b>
+			</aside>
+		</article>
+	</div>
+	<h2>This is where we want your feedback</h2>
+	<hr>
+	<div >
+		<form>
+			<label for="eaddress">Email address</label><br>
+			<input id="eaddress" type="email" name="Email" placeholder="Email@address.com"><br>
+			<label for="yage">Your age</label><br>
+			<input id="yage" type="number" name="Age" placeholder="18"><br><br>
+			<label>Your gender:</label>
+			<input id="male" type="radio" name="gender" value="male">
+			<label for="male" >Male</label>
+			<input id="Female" type="radio" name="gender" value="female">
+			<label for="Female" >Female</label>
+			<input id="Other" type="radio" name="gender" value="other">
+			<label for="Other" >Other</label><br><br>
+			<label>Did you like our page?</label>
+			<input id="yes" type="radio" name="yesorno" value="Yes">
+			<label for="yes">Yes</label>
+			<input id="no" type="radio" name="yesorno" value="No">
+			<label for="no">No</label><br><br>
+			<input type="submit" name="Submit">
+			<input type="reset" name="Reset">
+		</form>
+	</div>
+	<img class="final-picture" src="images/Submit.jpg">
+	<hr>
+	<footer>
+		<h3>Disclaimer</h3>
+		<p>This site is just a fun project, all the rights goes to their owners, including images, videos, audio files and potencial information. It is just a fun project and most of the stuff is not real. I created this site for testing and getting a feel, how to create a news web site.</p>
+		<aside>Creator of this site: Martin Oktábec / Email me: Okutabetsu@seznam.cz</aside>
+	</footer>
+</body>
+</html>
